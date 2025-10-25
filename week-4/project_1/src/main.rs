@@ -30,12 +30,12 @@ fn main() {
     if discriminant >= 0.0{
         let r1 : f32 = (-value_b + discriminant.sqrt()) /  (2.0 * value_a);
         let r2 : f32 = (-value_b + discriminant.sqrt()) /  (2.0 * value_a);
-        println!("Two distinct real roots {} , {}", r1 , r2);
+        println!("Two distinct real roots {:.2} , {:.2}", r1 , r2);
     }else if discriminant == 0.0{
         let root :f32 = -value_b / (2.0 * value_a);
-        println!("One real root: {}", root );
+        println!("One real root: {:.2}", root );
     }else if discriminant <= 0.0 {
-        println!("No real root available ");
+        println!("No real roots ");
     }
 
 
