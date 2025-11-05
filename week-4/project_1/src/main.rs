@@ -36,7 +36,7 @@ fn main() {
         println!("One real root: {:.2}", root );
     }else if discriminant <= 0.0 {
         println!("No real roots ");
-    }
+    };
 
 
 
