@@ -23,5 +23,5 @@ fn main(){
     //calling function
     println!("Welcome! This program checks wether a character variable 
     contains a digit or not ");
-    checker()
+    checker() 
 }
