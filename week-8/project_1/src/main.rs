@@ -8,7 +8,7 @@ fn main() {
     let lawyer = vec!["paralegal", "junior associate", "associate", "senior associate"];
     let teacher = vec!["classroom teacher", "snr teacher", "leading teacher", "principal"];
 
-    // === ASK USER FOR INPUT ===
+    //  ASK USER FOR INPUT 
     let mut job = String::new();
     let mut years = String::new();
 
@@ -20,7 +20,7 @@ fn main() {
     io::stdin().read_line(&mut years).unwrap();
     let years: i32 = years.trim().parse().unwrap();
 
-    // === DETERMINE OCCUPATION GROUP ===
+    // DETERMINE OCCUPATION GROUP 
     let group = if public_servant.contains(&job.as_str()) {
         "Public Servant"
     } else if administrator.contains(&job.as_str()) {
@@ -35,7 +35,7 @@ fn main() {
         "Unknown Occupation"
     };
 
-    // === DETERMINE APS LEVEL ===
+    //  DETERMINE APS LEVEL 
     let staff_level = if years >= 1 && years <= 2 {
         "APS 1-2"
     } else if years >= 3 && years <= 5 {
