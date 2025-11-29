@@ -1,0 +1,22 @@
+ EFCC MERGED CONVICT DATA
+
+Name: Aigbogun Alamba Daudu
+Zone: South West
+Ministry: Internal Affairs
+
+Name: Murtala Afeez Bendu
+Zone: North East
+Ministry: Justice
+
+Name: Okorocha Calistus Ogbona
+Zone: South South
+Ministry: Defense
+
+Name: Adewale Jimoh Akanbi
+Zone: South West
+Ministry: Power & Steel
+
+Name: Osazuwa Faith Etieye
+Zone: South East
+Ministry: Petroleum
+
