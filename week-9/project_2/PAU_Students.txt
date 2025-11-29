@@ -1,0 +1,14 @@
+=== PAU STUDENT INFORMATION SYSTEM ===
+
+Name: John Paul
+Department: Computer Science
+Level: 100 Level
+
+Name: Mary Esther
+Department: Mass Communication
+Level: 200 Level
+
+Name: Samuel Adams
+Department: Economics
+Level: 300 Level
+
